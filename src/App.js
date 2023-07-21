@@ -7,6 +7,7 @@ import Pro from "./components/Pro";
 import EarnStake from "./components/EarnStake";
 import Learn from "./components/Learn";
 import Markets from "./components/Markets";
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/markets" element={<Markets />} />
         <Route path="/learn" element={<Learn />} />
       </Routes>
+      <Footer />
     </>
   )
 }

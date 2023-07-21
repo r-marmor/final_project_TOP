@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 
 export default function Navbar() {
     return (
-        <nav className="bg-white border-gray-200 shadow-lg fixed w-full">
+        <nav className="bg-white border-gray-200 shadow-lg fixed w-full z-30">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://www.bitstamp.net/" className="flex items-center">
               <NavLink to="/" className="self-center text-2xl font-semibold whitespace-nowrap">Bitstamp</NavLink>
