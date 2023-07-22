@@ -10,7 +10,7 @@ export default function CryptoBoard() {
                 const response = await fetch("https://www.bitstamp.net/api/v2/currencies/");
                 let data = await response.json();
                 
-                const promises = data.slice(0,10).map(async (crypto, index) => {
+                const promises = data.slice(0,7).map(async (crypto, index) => {
                     try {
                         if (crypto.currency) {
                             const url = `https://www.bitstamp.net/api/v2/ticker/${crypto.currency.toLowerCase()}usd/`;

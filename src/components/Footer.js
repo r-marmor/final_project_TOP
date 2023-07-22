@@ -1,10 +1,8 @@
-import facebookLogo from "../images/facebook.png"
-
 export default function Footer() {
     return (
-        <footer className="min-h-1/2 bg-green-950">
-            <div className="container mx-auto py-12 border-4">
-                <div className="flex gap-24 justify-between">
+        <footer className="min-h-1/2 bg-green-950 py-10">
+            <div className="container mx-auto py-12h-full">
+                <div className="flex flex-wrap gap-y-12 justify-between">
                     <div>
                         <h3 className="text-white font-bold mb-6">About</h3>
                         <div className="text-gray-400 text-xs flex flex-col gap-2">
@@ -71,8 +69,8 @@ export default function Footer() {
                 </div>
 
                 {/* THE 3RD DIV ISNT WORKING PROPERLY (HIS WIDTH) NEED TO TRY WITH GRID INTEAD OF FLEX */}
-                <div className="flex text-white mt-16 gap-20 justify-between">
-                    <div className="flex gap-2 mr-20">
+                <div className="flex flex-col items-center sm:flex-row flex-wrap md:flex-nowrap text-white mt-16 gap-20 w-full h-full justify-between">
+                    <div className="flex gap-2 mr-10 md:mr-15 lg:mr-20 w-1/3">
                         <a href="https://twitter.com/Bitstamp" className="w-7" target="_blank" rel="noopener noreferrer" alt="Bitstamp twitter">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="white">
                             <path d="M 16 0 a 16 16 0 1 0 16 16 A 16 16 0 0 0 16 0 Z m 6.39 13.51 v 0.43 A 9.35 9.35 0 0 1 8 21.81 a 6.65 6.65 0 0 0 4.87 -1.36 a 3.29 3.29 0 0 1 -3.07 -2.28 a 3.26 3.26 0 0 0 0.62 0.06 a 3.19 3.19 0 0 0 0.87 -0.12 a 3.29 3.29 0 0 1 -2.64 -3.22 a 3.29 3.29 0 0 0 1.49 0.41 a 3.29 3.29 0 0 1 -1 -4.39 a 9.34 9.34 0 0 0 6.78 3.44 a 3.29 3.29 0 0 1 5.6 -3 a 6.57 6.57 0 0 0 2.09 -0.8 a 3.29 3.29 0 0 1 -1.45 1.82 a 6.56 6.56 0 0 0 1.84 -0.56 a 6.66 6.66 0 0 1 -1.61 1.7 Z"></path>
@@ -104,7 +102,7 @@ export default function Footer() {
                         </div>
                         
                     </div>
-                    <div className="flex gap-4">
+                    <div className="flex flex-wrap gap-4 w-1/3">
                         <img src="https://assets.bitstamp.net/static/webapp/images/logos/visa-white.08b3dce7c5b5950e46478672c36d98292463d42e.svg" className="h-6" alt="visa logo"></img>
                         <img src="https://assets.bitstamp.net/static/webapp/images/logos/maestro-symbol.672238cbb6c89ff21a6159edfffeeeeff6000fd3.svg" className="h-6" alt="maestro logo"></img>
                         <img src="https://assets.bitstamp.net/static/webapp/images/logos/mastercard-symbol.cdb3b52e2fd9c4f67e5f4c62ea0977cd536c303a.svg" className="h-6" alt="mastercard logo"></img>
@@ -113,9 +111,14 @@ export default function Footer() {
                         <img src="https://assets.bitstamp.net/static/webapp/images/logos/paypal-white.8b5dc003d82a290e47257667b102779040fa18ab.svg" className="h-6" alt="paypal logo"></img>
                     </div>
 
-                    <div className="border border-red-500 w-96">Bitstamp <br></br> Bitstamp USA, Inc. is licensed to engage in Virtual Currency Business Activity by the New York State Department of Financial Services.
-                    All rights reserved © 2023 Bitstamp. NMLS #1905429</div>
-                </div>
+                    <div className="md:w-1/3 w-full text-center sm:text-start">
+                            <p className="text-xl">Bitstamp</p>
+                        <br></br> 
+                            <p className="text-xs text-gray-500">Bitstamp USA, Inc. is licensed to engage in Virtual Currency Business Activity by the New York State Department of Financial Services.</p>
+                            <br></br>
+                            <p className="text-xs text-gray-500">All rights reserved © 2023 Bitstamp. NMLS #1905429</p>
+                        </div>
+                    </div>
             </div>
         </footer>
     )
