@@ -69,7 +69,7 @@ export default function Footer() {
                 </div>
 
                 {/* THE 3RD DIV ISNT WORKING PROPERLY (HIS WIDTH) NEED TO TRY WITH GRID INTEAD OF FLEX */}
-                <div className="flex flex-col items-center sm:flex-row flex-wrap md:flex-nowrap text-white mt-16 gap-20 w-full h-full justify-between">
+                <div className="flex flex-col items-center sm:flex-row flex-wrap md:flex-nowrap text-white mt-16 gap-10 w-full h-full justify-between">
                     <div className="flex gap-2 mr-10 md:mr-15 lg:mr-20 w-1/3">
                         <a href="https://twitter.com/Bitstamp" className="w-7" target="_blank" rel="noopener noreferrer" alt="Bitstamp twitter">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="white">
@@ -102,7 +102,7 @@ export default function Footer() {
                         </div>
                         
                     </div>
-                    <div className="flex flex-wrap gap-4 w-1/3">
+                    <div className="flex justify-center sm:flex-wrap gap-4 w-1/3">
                         <img src="https://assets.bitstamp.net/static/webapp/images/logos/visa-white.08b3dce7c5b5950e46478672c36d98292463d42e.svg" className="h-6" alt="visa logo"></img>
                         <img src="https://assets.bitstamp.net/static/webapp/images/logos/maestro-symbol.672238cbb6c89ff21a6159edfffeeeeff6000fd3.svg" className="h-6" alt="maestro logo"></img>
                         <img src="https://assets.bitstamp.net/static/webapp/images/logos/mastercard-symbol.cdb3b52e2fd9c4f67e5f4c62ea0977cd536c303a.svg" className="h-6" alt="mastercard logo"></img>

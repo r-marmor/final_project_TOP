@@ -58,7 +58,7 @@ export default function CryptoBoard() {
                     <p className="h-10 text-right w-1/4 border-gray-500 border-b">${crypto.price}</p>
                     <p className={`h-10 text-right w-1/4 border-gray-500 border-b ${crypto.change < 0 ? 'text-red-500' : 'text-green-500'}`}>{crypto.change < 0 ? crypto.change + "%" : "+" + crypto.change}</p>
                     <div className="h-10 w-1/6 border-gray-500 border-b text-gray-400 hidden md:block">
-                        <button type="button" class="widthBtn py-1 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-green-700 hover:text-green-400">Buy {crypto.name}</button>
+                        <button type="button" className="widthBtn py-1 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-green-700 hover:text-green-400">Buy {crypto.name}</button>
                     </div>
                 </div>
              )}
