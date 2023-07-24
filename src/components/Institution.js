@@ -12,13 +12,13 @@ export default function Institution() {
                 </div>
 
                 {/* BOTTOM PART OF 1ST SECTION */}
-                <div className="border container mx-auto flex justify-between gap-10 text-white mt-10">
+                <div className="accordion_titles container mx-auto flex justify-between gap-10 text-white mt-10">
                     <div className="flex gap-10 w-1/2"> 
                         {/* LEFT ACCORDION */}
                         <div id="accordion-flush" className="w-1/2" data-accordion="collapse" data-active-classes="bg-green-950 text-green-400" data-inactive-classes="text-white">
                             <h2 id="accordion-flush-heading-1">
-                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-green-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-1" aria-expanded={true} aria-controls="accordion-flush-body-1">
-                                    <span>What is Flowbite?</span>
+                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-green-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-1" aria-expanded={false} aria-controls="accordion-flush-body-1">
+                                    <span>Brokers</span>
                                     <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
                                     </svg>
@@ -26,92 +26,102 @@ export default function Institution() {
                             </h2>
                             <div id="accordion-flush-body-1" className="hidden" aria-labelledby="accordion-flush-heading-1">
                                 <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                                    <p className="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" className="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                                    <p className="mb-2 text-white">Access markets that never close. Expand your offering across top cryptocurrency assets with a partner who ensures regulatory clarity.</p>
                                 </div>
                             </div>
                             <h2 id="accordion-flush-heading-2">
-                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded={false} aria-controls="accordion-flush-body-2">
-                                    <span>Is there a Figma file available?</span>
+                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-2" aria-expanded={false} aria-controls="accordion-flush-body-2">
+                                    <span>FinTechs</span>
                                     <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
                                     </svg>
                                 </button>
                             </h2>
                             <div id="accordion-flush-body-2" className="hidden" aria-labelledby="accordion-flush-heading-2">
-                                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
-                                    <p className="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" className="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+                                <div className="py-5 border-b border-gray-200">
+                                    <p className="mb-2 text-white">Create unique customer journeys with seamless crypto integration.</p>
                                 </div>
                             </div>
                             <h2 id="accordion-flush-heading-3">
-                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded={false} aria-controls="accordion-flush-body-3">
-                                    <span>What are the differences?</span>
+                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-3" aria-expanded={false} aria-controls="accordion-flush-body-3">
+                                    <span>Hedge Funds</span>
                                     <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
                                     </svg>
                                 </button>
                             </h2>
                             <div id="accordion-flush-body-3" className="hidden" aria-labelledby="accordion-flush-heading-3">
-                                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                                    <ul className="pl-5 text-gray-500 list-disc dark:text-gray-400">
-                                        <li><a href="https://flowbite.com/pro/" className="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
-                                        <li><a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-                                    </ul>
+                                <div className="py-5 border-b border-gray-200">
+                                    <p className="mb-2 text-white">Expand your portfolio through leading crypto markets and execution services.</p>
+                                </div>
+                            </div>
+                            <h2 id="accordion-flush-heading-4">
+                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-4" aria-expanded={false} aria-controls="accordion-flush-body-4">
+                                    <span>Family Offices</span>
+                                    <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-flush-body-4" className="hidden" aria-labelledby="accordion-flush-heading-4">
+                                <div className="py-5 border-b border-gray-200">
+                                    <p className="mb-2 text-white">Get direct access to crypto markets through proven architecture featuring industry-leading security.</p>
                                 </div>
                             </div>
                         </div>
 
                         {/* RIGHT ACCORDION A REVOIR, CA TRIGGER LES MEMES TRUCS QUE LE LEFT ACCORDION */}
                         <div id="accordion-flush" className="w-1/2" data-accordion="collapse" data-active-classes="bg-green-950 text-green-400" data-inactive-classes="text-white">
-                            <h2 id="accordion-flush-heading-1">
-                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-green-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-1" aria-expanded={true} aria-controls="accordion-flush-body-1">
-                                    <span>What is Flowbite?</span>
+                            <h2 id="accordion-flush-heading-5">
+                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-green-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-5" aria-expanded={false} aria-controls="accordion-flush-body-5">
+                                    <span>Neo banks</span>
                                     <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
                                     </svg>
                                 </button>
                             </h2>
-                            <div id="accordion-flush-body-1" className="hidden" aria-labelledby="accordion-flush-heading-1">
-                                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                                    <p className="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" className="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                            <div id="accordion-flush-body-5" className="hidden" aria-labelledby="accordion-flush-heading-5">
+                                <div className="py-5 border-b border-gray-200">
+                                    <p className="mb-2 text-white">Leverage existing time-proven infrastructure to create your custom crypto offer. Eliminate barriers to entry into digital currency markets.</p>
                                 </div>
                             </div>
-                            <h2 id="accordion-flush-heading-2">
-                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded={false} aria-controls="accordion-flush-body-2">
-                                    <span>Is there a Figma file available?</span>
+                            <h2 id="accordion-flush-heading-6">
+                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-6" aria-expanded={false} aria-controls="accordion-flush-body-6">
+                                    <span>Banks</span>
                                     <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
                                     </svg>
                                 </button>
                             </h2>
-                            <div id="accordion-flush-body-2" className="hidden" aria-labelledby="accordion-flush-heading-2">
-                                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
-                                    <p className="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" className="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+                            <div id="accordion-flush-body-6" className="hidden" aria-labelledby="accordion-flush-heading-6">
+                                <div className="py-5 border-b border-gray-200">
+                                    <p className="mb-2 text-white">Allow your clients to safely participate in crypto with a customized solution. Profit from an emerging industry without high overheads and regulatory concerns.</p>
                                 </div>
                             </div>
-                            <h2 id="accordion-flush-heading-3">
-                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded={false} aria-controls="accordion-flush-body-3">
-                                    <span>What are the differences between Flowbite and Tailwind UI?</span>
+                            <h2 id="accordion-flush-heading-7">
+                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-7" aria-expanded={false} aria-controls="accordion-flush-body-7">
+                                    <span>Prop Traders</span>
                                     <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
                                     </svg>
                                 </button>
                             </h2>
-                            <div id="accordion-flush-body-3" className="hidden" aria-labelledby="accordion-flush-heading-3">
-                                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-                                    <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                                    <ul className="pl-5 text-gray-500 list-disc dark:text-gray-400">
-                                        <li><a href="https://flowbite.com/pro/" className="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
-                                        <li><a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-                                    </ul>
+                            <div id="accordion-flush-body-7" className="hidden" aria-labelledby="accordion-flush-heading-7">
+                                <div className="py-5 border-b border-gray-200">
+                                    <p className="mb-2 text-white">Put your experience to work on quickly growing markets that never close.</p>
+                                </div>
+                            </div>
+                            <h2 id="accordion-flush-heading-8">
+                                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200" data-accordion-target="#accordion-flush-body-8" aria-expanded={false} aria-controls="accordion-flush-body-8">
+                                    <span>Aggregators</span>
+                                    <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-flush-body-8" className="hidden" aria-labelledby="accordion-flush-heading-7">
+                                <div className="py-5 border-b border-gray-200">
+                                    <p className="mb-2 text-white">Connect through the fastest APIs in crypto and leverage our highly liquid markets.</p>
                                 </div>
                             </div>
                         </div>

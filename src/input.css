@@ -5,3 +5,7 @@
 .widthBtn {
     width: 100%;
 }
+
+.accordion_titles h2 {
+    font-size: 1.25rem;
+}
