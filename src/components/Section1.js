@@ -1,8 +1,8 @@
 export default function Section1 () {
     return (
-        <section className="pt-36 px-60 bg-emerald-950 text-white min-h-screen">
-        <div className="w-full h-full flex">
-          <div className="flex flex-col w-1/2">
+        <section className="pt-36 pb-10 bg-emerald-950 text-white min-h-screen h-1 w-full">
+        <div className="flex flex-col justify-center items-center gap-10 lg:gap-0 lg:flex-row w-full h-full">
+          <div className="flex flex-col lg:w-1/2 pl-10">
             <div className="leading-relaxed text-4xl xl:leading-relaxed xl:text-6xl font-bold">
               <span className="p-2 bg-green-400 text-green-900">Buy & trade</span>
               <br></br> 
@@ -27,7 +27,7 @@ export default function Section1 () {
               <img src="https://assets.bitstamp.net/static/webapp/images/huawei-store.6dc8a0167c602968e35b5d2ad948ca56e96366ae.svg" width="135" height="4" alt="Huawai Store app" className="cursor-pointer"></img>
             </div>
           </div>
-          <div className="w-1/2 flex justify-start pl-10">
+          <div className="w-fit h-1/2 lg:h-full lg:w-1/4 flex items-center justify-center bg-green-100">
             ANIMATION HERE
           </div>
         </div>

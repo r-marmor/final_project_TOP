@@ -1,6 +1,6 @@
 export default function Carousel() {
     return (
-      <section className="bg-white h-1/2 border"> 
+      <section className="bg-white w-full h-1/2 border"> 
         <div id="default-carousel" className="relative w-full" data-carousel="static">
           {/* Carousel wrapper */}
           <div className="relative h-56 overflow-hidden rounded-lg md:h-96">

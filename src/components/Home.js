@@ -5,7 +5,7 @@ import Section4 from "../components/Section4";
 
 export default function Home() {
     return (
-        <>
+        <div className="w-full">
             <Section1 />
             <Carousel />
             <CryptoBoard />
@@ -13,6 +13,6 @@ export default function Home() {
             <section className="h-1/2 w-full flex justify-center items-center font-bold text-3xl">
                 An other section
             </section>
-        </>
+        </div>
     )
 }
