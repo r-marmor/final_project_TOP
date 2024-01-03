@@ -1,5 +1,7 @@
 # Twitter Replica
-This project is a simplified replica of Twitter, designed to showcase core features of the popular social media platform. It is built using React for the frontend and Firebase for the backend.
+
+This project is a simplified replica of the known app's core features, designed for educational purposes. It is built using React for the frontend and Firebase for the backend.
+
 
 ## Features
 
@@ -10,6 +12,7 @@ This project is a simplified replica of Twitter, designed to showcase core featu
 - **Following System:** Users can follow/unfollow other users.
 - **Likes and Retweets:** Users can like and retweet tweets.
 
+
 ## Technology Stack
 
 - **Frontend:** React
@@ -17,6 +20,7 @@ This project is a simplified replica of Twitter, designed to showcase core featu
   - Authentication
   - Firestore Database
   - Hosting
+
 
 ## Getting Started
 
